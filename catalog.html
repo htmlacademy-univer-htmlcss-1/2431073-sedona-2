@@ -1,151 +1,17 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Каталог товаров</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalog</title>
 </head>
 <body>
-
-  <header class="page-header">
-    <a class="logo">
-      <img src="#" alt="Логотип магазина.">
-    </a>
-
-    <nav class="main-nav">
-      <ul class="site-menu">
-        <li>
-          <a href="index.html">Главная</a>
-        </li>
-        <li>
-          <a href="catalog.html">Каталог товаров</a>
-        </li>
-        <li>
-          <a href="#">Доставка и оплата</a>
-        </li>
-        <li>
-          <a href="#">О компании</a>
-        </li>
-      </ul>
-    </nav>
-
-    <address class="contacts">
-      <a href="tel:+78005558628" class="phone">+7 800 555-86-28</a>
-      <a href="mailto:info@sitename.ru" class="email">info@sitename.ru</a>
-    </address>
-
-  </header>
-
-  <main>
-
-    <header class="inner-header">
-      <h1 class="page-title">Каталог товаров</h1>
-    </header>
-
-    <section class="catalog">
-
-      <h2 class="visually-hidden">Список категорий</h2>
-
-      <ul class="catalog-list">
-        <li class="catalog-item">
-          <h3>
-            <a href="#">Вязаные игрушки</a>
-          </h3>
-          <ul>
-            <li><a href="#">Кролики</a></li>
-            <li><a href="#">Белки</a></li>
-            <li><a href="#">Мишки</a></li>
-            <li><a href="#">Лисы</a></li>
-          </ul>
-        </li>
-        <li class="catalog-item">
-          <h3>
-            <a href="#">Одежда</a>
-          </h3>
-          <ul>
-            <li><a href="#">Свитеры</a></li>
-            <li><a href="#">Кардиганы и жакеты</a></li>
-            <li><a href="#">Детские костюмы</a></li>
-          </ul>
-        </li>
-        <li class="catalog-item">
-          <h3>
-            <a href="#">Аксессуары</a>
-          </h3>
-          <ul>
-            <li><a href="#">Шапки</a></li>
-            <li><a href="#">Шарфы</a></li>
-            <li><a href="#">Варежки</a></li>
-          </ul>
-        </li>
-      </ul>
-
-    </section>
-
-    <section class="products">
-
-      <h2>Новые поступления</h2>
-
-      <ul class="products-list">
-        
-        <li class="product">
-          <img src="#" alt="Вязаный кролик серого цвета.">
-          <h3>
-            <a href="#">Кролик серый</a>
-          </h3>
-          <span>1200 ₽</span>
-          <a class="button" href="#">В корзину</a>
-        </li>
-
-        <li class="product">
-          <img src="#" alt="Вязаная белка коричневого цвета.">
-          <h3>
-            <a href="#">Белка коричневая</a>
-          </h3>
-          <span>1000 ₽</span>
-          <a class="button" href="#">В корзину</a>
-        </li>
-
-      </ul>
-
-    </section>
-
-  </main>
-
-  <footer class="page-footer">
-
-    <section>
-      <h2 class="visually-hidden">Контактная информация</h2>
-      
-      <address class="contacts">
-        <p>Тамбов, Комсомольская пл., 5</p>
-        <a href="tel:+78005558628">+7 800 555-86-28</a>
-      </address>
-    </section>
-
-    <section>
-      <h2 class="visually-hidden">Присоединяйтесь!</h2>
-      <ul class="social">
-        <li>
-          <a href="#">
-            <img src="#" alt="ВКонтакте.">
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img src="#" alt="Инстаграм.">
-          </a>
-        </li>
-      </ul>
-    </section>
-
-    <section class="copyright">
-      <a class="logo footer-logo" href="#">
-        <img src="#" alt="Логотип магазина.">
-      </a>
-      <p>© 2019 Все права защищены</p>
-    </section>
-
-  </footer>
-
+    <header data-test="header">This is the header</header>
+    <div data-test="main">
+        <div data-test="filter">This is the filter block</div>
+        <div data-test="catalog">This is the catalog block</div>
+        <div data-test="subscribe">This is the subscribe block</div>
+    </div>
+    <footer data-test="footer">This is the footer</footer>
 </body>
 </html>
