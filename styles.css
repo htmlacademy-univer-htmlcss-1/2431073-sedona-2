@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'ptsans-400';
+  src: url('fonts/ptsans-400.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: 'ptsans-400', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  font-weight: normal;
+  background-color: #f5f5f5;
+  background-image: url('images/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'ptsans-400', sans-serif;
+  font-weight: bold;
+  color: #000;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+}
+
+.hero {
+  background-image: url('images/hero-background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
