@@ -7,6 +7,26 @@ body {
   flex-direction: column; 
 }
 
+ul, ol {
+  list-style-type: none;
+}
+
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu-item {
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.logo {
+  width: 100px;
+  height: 50px;
+}
+
 .header, 
 .footer {
   flex: 0 0 auto;
@@ -28,8 +48,9 @@ body {
 }
 
 .hero {
-  flex: 0 0 300px;
-  outline: 1px solid green;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .content {
@@ -50,4 +71,17 @@ body {
 .subscribe {
   flex: 0 0 100px;
   outline: 1px solid pink;
+}
+
+.visually-hidden {
+  position: absolute; 
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
