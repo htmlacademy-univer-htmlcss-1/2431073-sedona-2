@@ -14,6 +14,34 @@
         <div data-test="advantages">This is the advantages block</div>
         <div data-test="search">This is the search block</div>
         <div data-test="subscribe">This is the subscribe block</div>
+        <div class="modal-container" id="myModal">
+            <div class="modal-content">
+                <span class="close" id="closeModal">&times;</span>
+                <p>This is your modal content.</p>
+            </div>
+        </div>
+        <div class="popover-container">
+            <button id="popoverBtn">Open Popover</button>
+            <div class="popover-content">
+                <p>This is your popover content.</p>
+            </div>
+        </div>
+        <form>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username">
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+
+            <input type="submit" value="Submit">
+        </form>
+        <input type="range" min="0" max="100" value="50" class="slider" id="mySlider">
+        <input type="checkbox" id="checkbox1" name="checkbox1" value="checkbox1">
+        <label for="checkbox1">Checkbox 1</label>
+
+        <input type="radio" id="radio1" name="radioGroup" value="radio1">
+        <label for="radio1">Radio 1</label>
+        <input type="range" min="0" max="100" value="50" class="range-slider" id="myRangeSlider">
     </div>
     <footer data-test="footer">This is the footer</footer>
 </body>
