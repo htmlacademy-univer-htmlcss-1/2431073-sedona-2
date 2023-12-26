@@ -10,8 +10,23 @@
     <header data-test="header">This is the header</header>
     <div data-test="main">
         <div data-test="filter">This is the filter block</div>
-        <div data-test="catalog">This is the catalog block</div>
-        <div data-test="subscribe">This is the subscribe block</div>
+        <div data-test="catalog" class="catalog">
+            <div class="catalog-item">
+                <img src="images/product1.jpg" alt="Product 1" class="catalog-image">
+                <p>Product 1 Name</p>
+                <!-- Дополнительная информация о продукте -->
+            </div>
+              <!-- Другие товары каталога -->
+        </div>
+
+        <div data-test="subscribe" class="subscribe">
+          <div class="subscribe-form">
+            <!-- Форма подписки -->
+          </div>
+          <!-- Дополнительные блоки подписки -->
+        </div>
+        
+
     </div>
     <footer data-test="footer">This is the footer</footer>
 </body>
